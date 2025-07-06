@@ -1,0 +1,153 @@
+*{
+      /* margin: 0; */
+      /* padding: 0; */
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body {
+      background-color: rgb(46, 46, 46);
+      color: white;
+      /* padding: 1rem; */
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo {
+      font-family: papyrus;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .crown-search {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin: 1.5rem 0 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-title span {
+      color: aqua;
+      font-size: 0.9rem;
+      cursor: pointer;
+      /* padding-left: 35%; */
+    }
+
+    .circle-list {
+      display: flex;
+      padding: 2px;
+      overflow-x: auto;
+    }
+
+    .circle-item {                      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 2px;
+    }
+
+    .circle-item img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 0.3rem;
+    }
+
+    .circle-item a{
+        text-decoration: none;
+        color: white;
+        /* background: #333; */
+        padding: 10px;
+        /* border-radius: 10px; */
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); */
+        transition: transform 0.3s ease;
+    }
+
+    .circle-item a:hover{
+        transform: scale(1.05);
+    }
+
+    .circle-item span{
+        font-size: 12px;
+    }
+
+    .moods {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .mood-button {
+      background: #1c1c46;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      border: 1px solid aqua;
+      font-size: 0.8rem;
+    }
+
+    .card-section {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+    }
+
+    .card {
+      width: 125px;
+      flex-shrink: 0;
+    }
+
+    .card img {
+      width: 100px;
+      height: 150px;
+      border-radius: 8px;
+    }
+
+    .card span {
+      margin-top: 0.5rem;
+      font-size: 12px;
+    }
+
+    .card p{
+      font-size: 12px;
+      padding-bottom: 15px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #25253d;
+      display: flex;
+      justify-content: space-around;
+      padding: 0.8rem 0;
+    }
+
+    footer div {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    
